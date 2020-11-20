@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.qinbin.jwt.ui.activity.MainActivity0" >
+
+    <!--  -->
+
+    <LinearLayout
+        android:id="@+id/num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/sil_margin_next" >
+
+        <TextView
+            android:id="@+id/num_title"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/sil_one_height"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:background="@android:color/white"
+            android:gravity="center_vertical"
+            android:text="标题"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/sil_text_size" />
+
+        <EditText
+            android:id="@+id/num_text"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/sil_one_height"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/sil_margin_between"
+            android:layout_weight="5"
+            android:background="@drawable/smart_edit_text"
+            android:gravity="center_vertical"
+            android:inputType="number"
+            android:text="fdsfsdfa"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/sil_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/sil_margin_next" >
+
+        <TextView
+            android:id="@+id/dict_title"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/sil_one_height"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:background="@android:color/white"
+            android:gravity="center_vertical"
+            android:text="字典"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/sil_text_size" />
+
+        <EditText
+            android:id="@+id/dict_text"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/sil_one_height"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/sil_margin_between"
+            android:layout_weight="5"
+            android:background="@drawable/smart_edit_text"
+            android:drawableRight="@drawable/down_icon"
+            android:gravity="center_vertical"
+            android:inputType="none"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/sil_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/sil_margin_next" >
+
+        <TextView
+            android:id="@+id/ddate_title"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/sil_one_height"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:background="@android:color/white"
+            android:gravity="center_vertical"
+            android:text="日期"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/sil_text_size" />
+
+        <EditText
+            android:id="@+id/date_text"
+            style=""
+            android:layout_width="0dp"
+            android:layout_height="@dimen/sil_one_height"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/sil_margin_between"
+            android:layout_weight="5"
+            android:background="@drawable/smart_edit_text"
+            android:drawableRight="@drawable/down_icon"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/sil_text_size" />
+    </LinearLayout>
+
+</LinearLayout>

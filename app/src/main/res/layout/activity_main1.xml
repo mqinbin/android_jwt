@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:qinbin="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.qinbin.jwt.ui.activity.MainActivity0" >
+
+    <com.qinbin.jwt.ui.widget.SmartInputLine
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        qinbin:content="daffas"
+        qinbin:lines="1"
+        qinbin:nessary="true"
+        qinbin:title="text1"
+        qinbin:type="text" >
+    </com.qinbin.jwt.ui.widget.SmartInputLine>
+
+    <com.qinbin.jwt.ui.widget.SmartInputLine
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        qinbin:content="fadfadsf"
+        qinbin:lines="3"
+        qinbin:nessary="true"
+        qinbin:title="text2"
+        qinbin:type="text" >
+    </com.qinbin.jwt.ui.widget.SmartInputLine>
+
+    <com.qinbin.jwt.ui.widget.SmartInputLine
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        qinbin:content="true"
+        qinbin:lines="1"
+        qinbin:nessary="true"
+        qinbin:title="edit"
+        qinbin:type="edit" >
+    </com.qinbin.jwt.ui.widget.SmartInputLine>
+
+    <com.qinbin.jwt.ui.widget.SmartInputLine
+        android:id="@+id/num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        qinbin:content="true"
+        qinbin:nessary="false"
+        qinbin:title="num"
+        qinbin:type="num" >
+    </com.qinbin.jwt.ui.widget.SmartInputLine>
+
+    <com.qinbin.jwt.ui.widget.SmartInputLine
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        qinbin:content="true"
+        qinbin:nessary="true"
+        qinbin:title="phone"
+        qinbin:type="phone" >
+    </com.qinbin.jwt.ui.widget.SmartInputLine>
+
+    <com.qinbin.jwt.ui.widget.SmartInputLine
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        qinbin:content="true"
+        qinbin:nessary="true"
+        qinbin:title="date"
+        qinbin:type="date" >
+    </com.qinbin.jwt.ui.widget.SmartInputLine>
+
+    <com.qinbin.jwt.ui.widget.SmartInputLine
+        android:id="@+id/carid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        qinbin:content="true"
+        qinbin:nessary="true"
+        qinbin:title="carid"
+        qinbin:type="carid" >
+    </com.qinbin.jwt.ui.widget.SmartInputLine>
+
+    <com.qinbin.jwt.ui.widget.SmartInputLine
+        android:id="@+id/idcard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        qinbin:content="true"
+        qinbin:nessary="true"
+        qinbin:title="idcard"
+        qinbin:type="idcard" >
+    </com.qinbin.jwt.ui.widget.SmartInputLine>
+
+    <com.qinbin.jwt.ui.widget.SmartInputLine
+        android:id="@+id/dict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        qinbin:dict_name="RY_XB"
+        qinbin:nessary="true"
+        qinbin:title="dict"
+        qinbin:type="dict" >
+    </com.qinbin.jwt.ui.widget.SmartInputLine>
+<com.qinbin.jwt.ui.widget.SmartInputLine
+        android:id="@+id/dict2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        qinbin:dict_name="TC_XZQH"
+        qinbin:nessary="true"
+        qinbin:title="dict"
+        qinbin:type="dict" >
+    </com.qinbin.jwt.ui.widget.SmartInputLine>
+    <com.qinbin.jwt.ui.widget.SmartInputLine
+        android:id="@+id/dicts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        qinbin:dict_name="RY_SX"
+        qinbin:nessary="true"
+        qinbin:title="dicts"
+        qinbin:type="dicts" >
+    </com.qinbin.jwt.ui.widget.SmartInputLine>
+
+</LinearLayout>

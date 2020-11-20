@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="sil_one_height">32dp</dimen>
+    <dimen name="sil_text_size">16sp</dimen>
+    <dimen name="sil_margin_next">2dp</dimen>
+    <dimen name="sil_margin_between">6dp</dimen>
+    
+    
+    <dimen name="input_assistant_btn_height">40dp</dimen>
+    <dimen name="input_assistant_title_ts">24sp</dimen>
+    <dimen name="input_assistant_btn_ts">18sp</dimen>
+    <dimen name="input_assistant_margin">5dp</dimen>
+    <dimen name="input_assistant_margin_between">2dp</dimen>
+
+    <dimen name="list_one_height">16dp</dimen>
+    <dimen name="list_text_size">8sp</dimen>
+</resources>
